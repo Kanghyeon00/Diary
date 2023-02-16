@@ -1,0 +1,14 @@
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/src/App.js b/src/App.js[m
+[1mindex 1cc1e04..800385b 100644[m
+[1m--- a/src/App.js[m
+[1m+++ b/src/App.js[m
+[36m@@ -102,7 +102,7 @@[m [mfunction App() {[m
+               <Route path="/new" element={<New />} component={New} />[m
+               <Route path="/diary/:id" element={<Diary />} component={Diary} />[m
+             </Routes>[m
+[31m-          </div>[m
+[32m+[m[32m          </div>a[m
+         </BrowserRouter>[m
+       </DiaryDispatchContext.Provider>[m
+     </DiaryStateContext.Provider>[m
